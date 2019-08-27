@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+   
+}
+div {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.socials {
+    align-content: flex-start;
+    margin-left: 50px;
+}
