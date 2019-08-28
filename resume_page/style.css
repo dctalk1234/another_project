@@ -1,17 +1,35 @@
 body {
-    background-color: black;
-    color: white;
-   
-}
-div {
-    display: flex;
+   background-color: black;
+   color: white;
 }
 
 h1 {
     text-align: center;
 }
 
-.socials {
-    align-content: flex-start;
-    margin-left: 50px;
+.list {
+    text-align: center;
+ 
 }
+ul {
+    list-style: none;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    font-size: 25px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    clear: both;
+  }
+
+  a {
+      color: blueviolet
+  }
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
